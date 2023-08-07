@@ -5,10 +5,15 @@ print("the last three elements in the list ",N[-3:])
 
 #Question: 3 (doubt)
 #print(N)
+print ("Question 3 Start")
 a = range(50)
+print(a)
 for i in a:
-    if i/5 == 0:
-        print(i)                         #why i value is not printing
+   # print ("Before",i)
+    if i%5 == 0:
+        print(i)
+
+print("Question 3 End")
 
 #Question: 4
 L = ["Apple",78,908.39]

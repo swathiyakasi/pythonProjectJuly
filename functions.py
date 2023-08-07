@@ -1,49 +1,53 @@
 #functions are block of codes we can use them when ever we want ,by calling the function
 
-def add():
-    a = 20
-    b = 67
-    print("additition" ,a+b)
+# functions with variables
 
+
+
+def marks():
+    english = 80
+    math = 89
+    print("totalmmarks : ",english+math)
+
+marks()
 
 def sub():
-    a = 40
-    b = 60
-    print("subtraction -",a-b)
+    a = 45
+    b = 34
+    c = a-b
+    print("the subtraction of 45 and 34:",c)
 
-def mul():
-    a = 34
-    b = 12
-    print("multiplication-", a*b)
-add()
 sub()
-mul()
-
-def add1():
- a = int(input("enter a value- "))
- b = int(input("enter ba value-"))
 
 
- c = a+b
+#function with parameters a,b
 
+def add(a,b):
+    c = a+b
+    print("the sum of a,b =",c)
 
- print("add1-",c)
+def sub(a,b):
+    c = a-b
+    print("the subtraction of a,b :", c)
 
-#add1()
+add(2,3)
+sub(2,3)
+
+#function with return value
+
+def my_function(x):
+    return 5 * x
+print(my_function(3))
+print(my_function(2))
 
 def add2(a,b):
-    print(a+b)
+    return(a+b)
 
-add2(2,3)
+out = add2(2,5)
+print(out+40)
 
-#def sub1(a,b)
-   # print(a-b)
-
-def mul1(a,b):
-    print(a*b)
-def multi(a,b):
+def mul(a,b):
     return(a*b)
-output=multi(2,4)
-print(output)
 
-
+c = mul(45,2)
+print(c)

@@ -12,9 +12,9 @@ class add:
     a = 30
     b = 40
     def addi(self):
-        c = a+b
-        print(c)
-obj = add
+        print("a value")
+        print("b value")
+obj = add()
 print(obj.a)
 print(obj.b)
 obj.addi()
