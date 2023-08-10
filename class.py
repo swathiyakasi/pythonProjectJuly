@@ -18,3 +18,18 @@ obj = add()
 print(obj.a)
 print(obj.b)
 obj.addi()
+
+# create class
+
+class sample:
+   def fruits(self):
+    print("apple","banana","grapes")
+
+class sample2:
+   def veg(self):
+    print("carrot","brinjal")
+
+obj1 = sample()
+obj2 = sample2()
+obj1.fruits()
+obj2.veg()
